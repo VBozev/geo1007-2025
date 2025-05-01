@@ -2,7 +2,34 @@
 <html>
 
 <head>
-	<title>Lab 2 start page</title>
+  <title>Lab 2 start page</title>
+  <style>
+    /* a. define a new background colour for the whole page (light sky blue) */
+    body {
+      background-color: lightskyblue;
+    }
+
+    /* b. make borders around the two lists */
+    ol {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    /* c. give list A another text font than list B */
+    ol:nth-of-type(1) {
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    ol:nth-of-type(2) {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* d. make a ‘fat’ border around the <p> paragraph text */
+    p {
+      border: 3px solid darkred; 
+      padding: 5px; 
+    }
+  </style>
 </head>
 
 <body>
